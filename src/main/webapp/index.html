@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="shortcut icon" href="Images/favicon.png" type="image/x-icon">
+
+    <!-----------------------------Remixicon---------------------------------->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!-------------------------------CSS-------------------------------------->
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Medica</title>
+</head>
+<body>
+	<header class="header" id="header">
+
+        <nav class="nav container">
+            <a href="#" class="nav_logo">
+               Medica.
+            </a>
+
+            <div class="nav_menu" id="nav-menu">
+                <ul class="nav_list">
+                    <li class="nav_list">
+                        <a href="#home" class="nav_link active-link">Home</a>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#program" class="nav_link">Services</a>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#about" class="nav_link">About Us</a>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#contact" class="nav_link">Contact</a>
+                    </li>
+
+                    <div class="nav_link">
+                        <a href="Login.jsp" class="button nav_button">Book Appointment</a>
+                    </div>
+                </ul>
+                
+                <div class="nav_close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+
+            <!-----Toggle Button------>
+            <div class="nav_toggle" id="nav-toggle">
+                <i class="ri-menu-line"></i>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="home section" id="home">
+            <div class="home_container container grid">
+                <div class="home_data">
+                    <h2 class="home_title">Keep doctors</h2>
+                    <h2 class="home_title">and loved ones</h2>
+                    <h2 class="home_title">in the loop</h2>
+                    <p class="home_description">
+                        Securely shape your comprehensive medical history with
+                        doctors and loved ones, for better communication and 
+                        care.
+                    </p>
+                    <a href="#" class="button button_flex">
+                        <i class="ri-phone-fill"></i> Contact Us
+                    </a>
+                </div>
+
+                <div class="home_images">
+                    <img src="Images\Doctor.png" alt="home image" class="home_img">
+
+                    <div class="home_triangle home_triangle-3"></div>
+                    <div class="home_triangle home_triangle-2"></div>
+           
+                </div>
+            </div>
+        </section>
+
+        <section class="service">
+            <div class="container">
+                <ul class="service-list">
+                    <li>
+                        <div class="service-card" data-reveal="bottom">
+                            <div class="card-icon" loading="lazy">
+                                <img src="Images/doctor_2.jpg" alt="icon">
+                            </div>
+                            <h3 class="headLine card-title">
+                                Emergency Care
+                            </h3>
+                            <p class="card-text">
+                                Must be the priority for only health care.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="service-card" data-reveal="bottom">
+                            <div class="card-icon" loading="lazy">
+                                <img src="Images/25270.jpg" alt="icon">
+                            </div>
+                            <h3 class="headLine card-title">
+                                Chamber Service
+                            </h3>
+                            <p class="card-text">
+                                Clinical excellence must be the priority.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="service-card" data-reveal="bottom">
+                            <div class="card-icon" loading="lazy">
+                                <img src="Images/20281.jpg" alt="icon">
+                            </div>
+                            <h3 class="headLine card-title">
+                                Hospitality
+                            </h3>
+                            <p class="card-text">
+                                Clinical excellence must be the priority.
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="program section" id="program">
+            <div class="container">
+                <div class="section_data">
+                    <div class="section_titles">
+                        <h1 class="section_title">Services</h1>
+                    </div>
+                </div>
+                <div class="program_container grid">
+                    <article class="program_card">
+                        <div class="program_shape">
+                            <img src="Images/records.png" alt="program image" class="program_img">
+                        </div>
+                        <h3 class="program_title">Diagnosis</h3>
+                        <p class="program_description">
+                            We offer advanced diagnostic services that ensure accurate diagnoses, empowering effective treatment planning.
+                        </p>
+                        
+                    </article>
+
+                    <article class="program_card">
+                        <div class="program_shape">
+                            <img src="Images/cardiogram.png" alt="program image" class="program_img">
+                        </div>
+                        <h3 class="program_title">Cardiology</h3>
+                        <p class="program_description">
+                            Expert heart care for p healthier cardiovascular system. Advanced diagnostics and personalized treatments for heart and vascular conditions.
+                        </p>
+                        
+                    </article>
+
+                    <article class="program_card">
+                        <div class="program_shape">
+                            <img src="Images/artificial-intelligence.png" alt="program image" class="program_img">
+                        </div>
+                        <h3 class="program_title">Neurology</h3>
+                        <p class="program_description">
+                            Specialized care for neurological disorders. Accurate diagnoses and customized treatment plans for conditions like epilepsy, stroke, and Parkinson's disease.
+                        </p>
+                        
+                    </article>
+
+                    <article class="program_card">
+                        <div class="program_shape">
+                            <img src="Images/bone.png" alt="program image" class="program_img">
+                        </div>
+                        <h3 class="program_title">Orthopedic</h3>
+                        <p class="program_description">
+                            Comprehensive musculoskeletal care. Skilled surgeons offering fracture care, joint replacements, and spine surgery for enhanced mobility.
+                        </p>
+                        
+                    </article>
+                    <article class="program_card">
+                        <div class="program_shape">
+                            <img src="Images/pills.png" alt="program image" class="program_img">
+                        </div>
+                        <h3 class="program_title">Medicine</h3>
+                        <p class="program_description">
+                            Comprehensive adult healthcare. Preventive care, accurate diagnoses, and evidence-based treatments for overall well-being.
+                        </p>
+                        
+                    </article>
+
+                    <article class="program_card">
+                        <div class="program_shape">
+                            <img src="Images/tooth.png" alt="program image" class="program_img">
+                        </div>
+                        <h3 class="program_title">Dental</h3>
+                        <p class="program_description">
+                            Comprehensive oral healthcare for all ages. Skilled dentists providing routine check-ups, cleanings, and p range of treatments for p healthy smile.
+                        </p>
+                        
+                    </article>
+
+                    <article class="program_card">
+                        <div class="program_shape">
+                            <img src="Images/microscope.png" alt="program image" class="program_img">
+                        </div>
+                        <h3 class="program_title">Pathology</h3>
+                        <p class="program_description">
+                            Precise disease diagnosis and treatment insights. Experienced pathologists ensuring accurate diagnoses and effective treatment.
+                        </p>
+                        
+                    </article>
+
+                    <article class="program_card">
+                        <div class="program_shape">
+                            <img src="Images/saline.png" alt="program image" class="program_img">
+                        </div>
+                        <h3 class="program_title">Diabatic</h3>
+                        <p class="program_description">
+                            Focused care for diabetes management. Personalized treatment plans and ongoing support for better control and p healthy lifestyle.
+                        </p>
+                        
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="about section" id="about">
+            <div class="about_overflow">
+                <div class="about_container container grid">
+                    <div class="about_content">
+                        <div class="section_data">
+                            <h2 class="section_subtitle">About Us</h2>
+                            <div class="section_titles">
+                                <h1 class="section_title">We Care For Your Health</h1>
+                            </div>
+                        </div>
+                        <p class="about_description">
+                            Welcome to Medica, your trusted destination for exceptional healthcare. We are p leading medical institution committed to providing high-quality medical services and compassionate care to our patients.
+
+                            At Medica, we prioritize your well-being and strive to deliver comprehensive healthcare across various specialties. Our dedicated team of experienced physicians, nurses, and support staff work collaboratively to provide personalized care and ensure the highest standards of medical excellence.
+
+                            With state-of-the-art facilities and advanced medical technology, we offer precise diagnoses, effective treatments, and efficient care. Our patient-centered approach allows us to tailor our services to meet your unique needs and preferences, ensuring p comfortable and supportive environment for you and your loved ones.
+                        </p>
+                    </div>
+                    <div class="about_images">
+                        <img src="Images/4990224.jpg" alt="about image" class="about_img">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="doctor section">
+            <div class="container">
+                <div class="section_data">
+                    <h1 class="section_subtitle">
+                        Our Doctor
+                    </h1>
+                    <h2 class="section_title">
+                        Experts We Have
+                    </h2>
+                </div>
+                <div class="doctor_container grid">
+                    <article class="doctor_card">
+                        
+                        <img src="Images/pngegg .png" alt="doctor image" class="doctor_img">
+                        
+                        <h3 class="program_title">Dr. Gandu</h3>
+                    </article>
+                    <article class="doctor_card">
+                        
+                            <img src="Images/pngegg (2).png" alt="doctor image" class="doctor_img">
+                        
+                        <h3 class="program_title">Dr. Chaman Chindi</h3>
+                        
+                    </article>
+                    <article class="doctor_card">
+                        
+                        <img src="Images/pngegg (3).png" alt="doctor image" class="doctor_img">
+                        
+                        <h3 class="program_title">Dr. Sukuti Sahoo</h3>
+                        
+                    </article>
+                    <article class="doctor_card">
+                        
+                        <img src="Images/pngegg (4).png" alt="doctor image" class="doctor_img">
+                        
+                        <h3 class="program_title">Dr. Angel Priya</h3>
+                        
+                    </article>
+                </div>
+                
+                
+            </div>
+        </section>
+
+        </main>
+    
+
+        <footer class="footer section" id="footer">
+            <div class="footer_container container grid">
+    
+                <div class="footer_content">
+                    <div>
+                        <h3 class="footer_title">
+                            Other Links
+                        </h3>
+                        <ul class="footer_links">
+                            <li>
+                                <a href="" class="footer_link">Home</a>
+                            </li>
+                            <li>
+                                <a href="" class="footer_link">Services</a>
+                            </li>
+                            <li>
+                                <a href="" class="footer_link">About Us</a>
+                            </li>
+                            <li>
+                                <a href="" class="footer_link">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <div>
+                        <h3 class="footer_title">
+                            Services
+                        </h3>
+                        <ul class="footer_links">
+                            <li>
+                                <p class="footer_link">Diagnosis</p>
+                            </li>
+                            <li>
+                                <p class="footer_link">Cardiology</p>
+                            </li>
+                            <li>
+                                <p class="footer_link">Neurology</p>
+                            </li>
+                            <li>
+                                <p class="footer_link">Orthopedic</p>
+                            </li>
+                            <li>
+                                <p class="footer_link">Medicine</p>
+                            </li>
+                            <li>
+                                <p class="footer_link">Dental</p>
+                            </li>
+                            <li>
+                                <p class="footer_link">Pathology</p>
+                            </li>
+                            <li>
+                                <p class="footer_link">Diabatic</p>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <div>
+                        <h3 class="footer_title" id="contact">
+                            Contact
+                        </h3>
+                        <ul class="footer_links">
+                            <li>
+                                <p class="footer_link"><i class="ri-map-pin-fill" style="color: rgba(13,36,235,1);"></i> 143/18 2nd Lane, VIP Square,<br>
+                                    Bhubaneswar,Odisha, Khurdha
+                                </p>
+                            </li>
+                            <li>
+                                <p class="footer_link"><i class="ri-phone-fill" style="color: rgba(13,36,235,1);"></i> +919245672143</p>
+                            </li>
+                            <li>
+                                <p class="footer_link"><i class="ri-mail-fill" style="color: rgba(13,36,235,1);"></i> care@medica.com</p>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="container">
+                <div class="footer_group">
+                    <ul class="footer_social">
+                        <a href="https://www.facebook.com/" target="_blank" class="footer_social-link">
+                            <i class="ri-facebook-circle-fill"></i>
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" class="footer_social-link">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+                        <a href="https:www.twitter.com/" target="_blank" class="footer_social-link">
+                            <i class="ri-twitter-fill"></i>
+                        </a>
+                    </ul>
+    
+                    <span class="footer_copy">
+                        &copy; Copyright SATISH KUMAR KANHAR. All rights reserved
+                    </span>
+                </div>
+            </div>
+        </footer>
+    
+        <!-- Scroll up -->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="ri-arrow-up-line"></i>
+        </a>
+        <!-- Scroll Reveal -->
+        <script src="JS/Scroll.js"></script>
+        <script src="JS/script.js"></script>
+</body>
+</html>
